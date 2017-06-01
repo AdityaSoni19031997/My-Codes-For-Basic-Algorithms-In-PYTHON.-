@@ -1,11 +1,6 @@
 """
 This is a pure python implementation of the insertion sort algorithm
 
-For doctests run following command:
-python -m doctest -v insertion_sort.py
-or
-python3 -m doctest -v insertion_sort.py
-
 For manual testing run:
 python insertion_sort.py
 """
@@ -42,7 +37,6 @@ if __name__ == '__main__':
     import sys
 
     # For python 2.x and 3.x compatibility: 3.x has not raw_input builtin
-    # otherwise 2.x's input builtin function is too "smart"
     if sys.version_info.major < 3:
         input_function = raw_input
     else:
